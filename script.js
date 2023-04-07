@@ -8,7 +8,8 @@ document.body.addEventListener('click', function() {
     click = true;
 });
 
-document.body.addEventListener('touchstart', function() {
+document.body.addEventListener('touchstart', function(event) {
+    event.preventDefault();
     click = true;
 });
 
