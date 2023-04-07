@@ -4,12 +4,7 @@ var peak = 10;
 var goUp = true;
 var click = false;
 
-document.body.addEventListener('click', function() {
-    click = true;
-});
-
-document.body.addEventListener('touchstart', function(event) {
-    event.preventDefault();
+document.body.addEventListener('mousedown', function() {
     click = true;
 });
 
