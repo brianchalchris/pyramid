@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+}
+
+#time {
+    color: green;
+    font-size: 20em;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
