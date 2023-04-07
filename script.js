@@ -8,6 +8,10 @@ document.body.addEventListener('click', function() {
     click = true;
 });
 
+document.body.addEventListener('touchstart', function() {
+    click = true;
+});
+
 function getNextPyramid(pyramidTime) {
     if (pyramidTime == peak) {
         goUp = false;
